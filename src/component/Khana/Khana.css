@@ -1,0 +1,87 @@
+.khana-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .khana-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .khana-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .khana-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .menu-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  
+  .utensil-icon {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .item-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .item-description {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .item-price {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .khana-menu {
+      flex-direction: column;
+    }
+    
+    .menu-item {
+      width: 100%;
+    }
+  }

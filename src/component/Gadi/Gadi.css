@@ -1,0 +1,126 @@
+/* Gadi.css */
+.transportation-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .transportation-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .transportation-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #222;
+  }
+  
+  .transportation-subheading {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .transportation-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .transportation-card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .transportation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .transport-icon {
+    font-size: 30px;
+  }
+  
+  .option-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .option-description {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  
+  .option-price {
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #e63838; /* Using the red color from earlier */
+  }
+  
+  .per-day {
+    color: #888;
+    font-size: 0.9rem;
+    margin-left: 5px;
+  }
+  
+  .reserve-button {
+    background-color: #0f172a; /* Dark blue/black color for button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 0;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .reserve-button:hover {
+    background-color: #1e293b;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .transportation-options {
+      flex-direction: column;
+    }
+    
+    .transportation-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }

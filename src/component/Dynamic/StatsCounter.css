@@ -1,0 +1,67 @@
+/* StatsCounter.css */
+.stats-counter-section {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  margin: 40px 0;
+  width: 100%; /* Use 100% instead of 'screen' which is not a valid CSS value */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-value {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #6a3093; /* Purple to match SafeTravel theme */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 1;
+}
+
+.stat-suffix {
+  font-size: 2rem;
+  margin-left: 2px;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .stat-item {
+    width: 100%;
+    max-width: 300px;
+  }
+}

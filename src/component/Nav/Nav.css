@@ -1,0 +1,397 @@
+/* Nav.css - Complete responsive version */
+#Nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav1 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.nav2 {
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #eee;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  overflow-x: auto;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 60px; /* Fixed height to align all elements */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #E53935;
+  font-weight: bold;
+  height: 100%;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+}
+
+.logo-image {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 22px;
+  color: #E53935;
+  line-height: 60px; /* Match the container height */
+}
+
+/* Top navigation links */
+.top-nav-links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto 0 60px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0 25px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-link:first-child {
+  margin-left: 0;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover {
+  color: #E53935;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E53935;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+}
+
+.list-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list-button a {
+  text-decoration: none;
+  color: #333;
+}
+
+.user-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Mobile menu button */
+.mobile-menu-button {
+  display: none;
+}
+
+.mobile-menu-button button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Category navigation */
+.category-icons {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  min-width: 70px;
+}
+
+.category-item svg {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.category-item span {
+  font-size: 12px;
+  color: #555;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.category-item:hover svg {
+  color: #E53935;
+}
+
+.category-item:hover span {
+  color: #E53935;
+}
+
+/* User dropdown menu */
+.user-menu-container {
+  position: relative;
+}
+
+.user-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.user-menu::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 15px;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  transform: rotate(45deg);
+  box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.user-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.user-menu li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .category-icons {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+  
+  .category-item {
+    flex: 0 0 auto;
+  }
+  
+  .nav2::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .nav2::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .nav2::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .nav-link {
+    margin: 0 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-nav-links {
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+    margin: 0 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+  .mobile-menu-button {
+    display: block;
+    order: 3;
+  }
+  
+  .logo {
+    order: 1;
+    flex: 1;
+  }
+  
+  .nav-buttons {
+    order: 2;
+  }
+  
+  .top-nav-links {
+    order: 4;
+    flex: 0 0 100%;
+    margin: 15px 0 0 0;
+    justify-content: space-between;
+    height: 40px;
+  }
+  
+  .nav-link {
+    margin: 0 8px;
+  }
+  
+  .nav2 {
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+  .nav2.mobile-open {
+    max-height: 300px;
+    padding: 10px 20px;
+  }
+  
+  #Nav {
+    height: auto;
+  }
+  
+  .nav1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    display: none;
+  }
+  
+  .list-button {
+    display: none;
+  }
+  
+  .top-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+    height: 30px;
+    margin: 5px;
+  }
+}
+
+/* Nav toggle styles */
+.nav-toggle {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.chevron-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #666;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.chevron-button:hover {
+  color: #333;
+}
+
+.nav2-hidden {
+  display: none;
+}
+
+/* Animation for smooth collapse/expand */
+.nav2 {
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+
+.nav2.nav2-hidden {
+  max-height: 0;
+}
