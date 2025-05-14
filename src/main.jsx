@@ -21,6 +21,8 @@ import Reserve from './component/Reserve/Reserve.jsx'
 import CreateTrip from './component/CreateTrip/CreateTrip.jsx'
 import Guide from './component/Guides/Guide.jsx'
 import Food from './component/Food/Food.jsx'
+import About from './component/About/About.jsx'
+import Student from './component/Students/Student.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
@@ -42,9 +44,8 @@ const router = createBrowserRouter(createRoutesFromElements(
 <Route path='/trip-planner' element={<CreateTrip/>}/>
 <Route path='/guides' element={<Guide/>}/>
 <Route path='/food' element={<Food/>}/>
-
-
-
+<Route path='/about' element={<About/>}/>
+<Route path='/student' element={<Student/>}/>
 </Route>
 ))
 createRoot(document.getElementById('root')).render(

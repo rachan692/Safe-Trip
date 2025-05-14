@@ -9,9 +9,9 @@ const Trending = () => {
             title: 'Authentic House in Nagarkot',
             price: 'Rs 1500 per night',
             images: [
-            'src/assets/image/nagarko2.jpg',
-            'src/assets/image/nagarko1.jpg',
-            'src/assets/image/nagarko3.jpg',
+            '/image/nagarko2.jpg',
+            '/image/nagarko1.jpg',
+            '/image/nagarko3.jpg',
       
             ],
             description: 'Mountain view apartment'
@@ -21,9 +21,9 @@ const Trending = () => {
             title: 'Riverside Cottage in Chitwan',
             price: 'Rs 4500 per night',
             images: [
-              'src/assets/image/Chitwan1.jpg',
-              'src/assets/image/Chitwan2.jpg',
-              'src/assets/image/Chitwan3.jpg',
+              '/image/Chitwan1.jpg',
+              '/image/Chitwan2.jpg',
+              '/image/Chitwan3.jpg',
               
             ],
             description: 'Peaceful natural surroundings'
@@ -33,9 +33,9 @@ const Trending = () => {
             title: 'Mountain Lodge in Annapurna',
             price: 'Rs 2000 per night',
             images: [
-              'src/assets/image/a1.jpg',
-              'src/assets/image/a2.jpg',
-              'src/assets/image/a3.jpg',
+              '/image/a1.jpg',
+              '/image/a2.jpg',
+              '/image/a3.jpg',
             ],}
     ];
 

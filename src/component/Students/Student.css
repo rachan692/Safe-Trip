@@ -1,0 +1,208 @@
+.student-container {
+    max-width: 1200px;
+    margin: 80px auto 0;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .student-header {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #f5f7fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .student-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #34495e;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .student-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .service-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .card-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .service-card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    flex-grow: 1;
+  }
+  
+  .benefits-list {
+    margin-bottom: 25px;
+    padding-left: 20px;
+  }
+  
+  .benefits-list li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 5px;
+  }
+  
+  .benefits-list li::before {
+    content: "•";
+    color: #16a085;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .action-button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .action-button:hover {
+    background-color: #138a72;
+  }
+  
+  .testimonial-section {
+    margin: 60px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    background-color: #f5f7fa;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .testimonial-author {
+    font-style: normal !important;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #16a085;
+  }
+  
+  .join-banner {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 60px;
+  }
+  
+  .join-banner h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .primary-button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .primary-button:hover {
+    background-color: #138a72;
+  }
+  
+  @media (max-width: 768px) {
+    .student-header {
+      padding: 30px 20px;
+    }
+    
+    .student-header h1 {
+      font-size: 2rem;
+    }
+    
+    .intro-text {
+      font-size: 1.1rem;
+    }
+    
+    .student-services {
+      grid-template-columns: 1fr;
+    }
+    
+    .service-card {
+      padding: 25px;
+    }
+    
+    .join-banner h2 {
+      font-size: 1.6rem;
+    }
+    
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }

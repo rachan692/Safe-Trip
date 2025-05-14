@@ -57,7 +57,7 @@ const Nav = () => {
         <div className="container">
           <div className="logo">
             <Link to="/">
-              <img src="src/assets/image/SAFE-TRIP.png" alt="" className="logo-image" />
+              <img src="/image/SAFE-TRIP.png" alt="" className="logo-image" />
               <span className="logo-text">Safe Trip</span>
             </Link>
           </div>
@@ -73,6 +73,9 @@ const Nav = () => {
             <Link to="/trip-planner" className="nav-link">Trip Planner</Link>
             <Link to="/guides" className="nav-link">Guides</Link>
             <Link to="/food" className="nav-link">Food</Link>
+            <Link to="/about" className="nav-link">About us</Link>
+            <Link to="/student" className="nav-link">Students</Link>
+
           </div>
           
           <div className="nav-buttons">

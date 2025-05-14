@@ -9,9 +9,9 @@ const Cabin = () => {
             title: 'Teahouse Lodge in Everest Region',
             price: 'Rs 1500 per night',
             images: [
-             'src/assets/image/m1.jpg',
-              'src/assets/image/m2.jpg',
-              'src/assets/image/m3.jpg',
+             '/image/m1.jpg',
+              '/image/m2.jpg',
+              '/image/m3.jpg',
             ],
             description: 'Authentic trekking experience'
           },
@@ -20,9 +20,9 @@ const Cabin = () => {
             title: 'Jungle Villa in Bardia',
             price: 'Rs 2000 per night',
             images: [
-             'src/assets/image/j1.jpg',
-              'src/assets/image/j2.jpg',
-              'src/assets/image/j3.jpg',
+             '/image/j1.jpg',
+              '/image/j2.jpg',
+              '/image/j3.jpg',
             ],
             description: 'Wildlife and nature experience'
           }

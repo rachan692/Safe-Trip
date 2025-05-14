@@ -9,9 +9,9 @@ const Houses = () => {
             title: '3BHK Villa in Pokhara',
             price: 'Rs 10000 per night',
             images: [
-                'src/assets/image/Pokhara.jpg',
-                'src/assets/image/Pokhara2.jpg',
-                'src/assets/image/Pokhara1.jpg',
+                '/image/Pokhara.jpg',
+                '/image/Pokhara2.jpg',
+                '/image/Pokhara1.jpg',
             ],
             description: 'Luxury villa with lake view'
         },
@@ -20,9 +20,9 @@ const Houses = () => {
             title: 'Traditional Home in Kathmandu',
             price: 'Rs 1200 per night',
             images: [
-                'src/assets/image/ktm.jpg',
-                'src/assets/image/ktm1.jpg',
-                'src/assets/image/ktm2.jpg',
+                '/image/ktm.jpg',
+                '/image/ktm1.jpg',
+                '/image/ktm2.jpg',
             ],
             description: 'Authentic Newari architecture'
         },
@@ -31,9 +31,9 @@ const Houses = () => {
             title: 'Authentic House in Nagarkot',
             price: 'Rs 1500 per night',
             images: [
-                'src/assets/image/nagarko2.jpg',
-                'src/assets/image/nagarko1.jpg',
-                'src/assets/image/nagarko3.jpg',
+                '/image/nagarko2.jpg',
+                '/image/nagarko1.jpg',
+                '/image/nagarko3.jpg',
             ],
             description: 'Mountain view apartment'
         }

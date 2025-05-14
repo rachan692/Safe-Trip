@@ -9,9 +9,9 @@ const Renthouse = () => {
             title: 'Riverside Cottage in Chitwan',
             price: 'Rs 4500 per night',
             images: [
-              'src/assets/image/Chitwan1.jpg',
-              'src/assets/image/Chitwan2.jpg',
-              'src/assets/image/Chitwan3.jpg',
+              '/image/Chitwan1.jpg',
+              '/image/Chitwan2.jpg',
+              '/image/Chitwan3.jpg',
               
             ],
             description: 'Peaceful natural surroundings'

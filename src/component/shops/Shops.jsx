@@ -9,9 +9,9 @@ const Shops = () => {
             title: 'Heritage House in Bhaktapur',
             price: 'Rs 1200 per night',
             images: [
-             'src/assets/image/b1.jpg',
-              'src/assets/image/b2.jpg',
-              'src/assets/image/b3.jpg',
+             '/image/b1.jpg',
+              '/image/b2.jpg',
+              '/image/b3.jpg',
             
             ],
             description: 'Historic district location'
@@ -21,9 +21,9 @@ const Shops = () => {
             title: 'Modern Apartment in Patan',
             price: 'Rs 2000 per night',
             images: [
-              'src/assets/image/p1.jpg',
-              'src/assets/image/p2.jpg',
-              'src/assets/image/p3.jpg',
+              '/image/p1.jpg',
+              '/image/p2.jpg',
+              '/image/p3.jpg',
             ],
             description: 'Contemporary living with cultural charm'
           },

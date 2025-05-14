@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import "./Poolhouse.css";
 
 const Poolhouse = () => {
-    // Limiting to 3 properties as requested
+    // Limiting to 3 properties 
     const properties = [
         {
             id: 11,
             title: 'Hotel Sarathi in Dhulikhel',
             price: 'Rs 3000 per night',
             images: [
-              'src/assets/image/d1.jpg',
-              'src/assets/image/d2.jpg',
-              'src/assets/image/d3.jpg',
+              '/image/d1.jpg',
+              '/image/d2.jpg',
+              '/image/d3.jpg',
             ],
             description: 'A five star hotel with seven star facility'
           },

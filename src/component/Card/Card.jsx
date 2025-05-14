@@ -9,9 +9,9 @@ const Card = () => {
       title: '3BHK Villa in Pokhara',
       price: 'Rs 10000 per night',
       images: [
-       'src/assets/image/Pokhara.jpg',
-       'src/assets/image/Pokhara2.jpg',
-       'src/assets/image/Pokhara1.jpg',
+       '/image/Pokhara.jpg',
+       '/image/Pokhara2.jpg',
+       '/image/Pokhara1.jpg',
        
 
       ],
@@ -22,9 +22,9 @@ const Card = () => {
       title: 'Traditional Home in Kathmandu',
       price: 'Rs 1200 per night',
       images: [
-        'src/assets/image/ktm.jpg',
-        'src/assets/image/ktm1.jpg',
-        'src/assets/image/ktm2.jpg',
+        '/image/ktm.jpg',
+        '/image/ktm1.jpg',
+        '/image/ktm2.jpg',
       
       ],
       description: 'Authentic Newari architecture'
@@ -34,9 +34,9 @@ const Card = () => {
       title: 'Authentic House in Nagarkot',
       price: 'Rs 1500 per night',
       images: [
-      'src/assets/image/nagarko2.jpg',
-      'src/assets/image/nagarko1.jpg',
-      'src/assets/image/nagarko3.jpg',
+      '/image/nagarko2.jpg',
+      '/image/nagarko1.jpg',
+      '/image/nagarko3.jpg',
 
       ],
       description: 'Mountain view apartment'
@@ -46,9 +46,9 @@ const Card = () => {
       title: 'Riverside Cottage in Chitwan',
       price: 'Rs 4500 per night',
       images: [
-        'src/assets/image/Chitwan1.jpg',
-        'src/assets/image/Chitwan2.jpg',
-        'src/assets/image/Chitwan3.jpg',
+        '/image/Chitwan1.jpg',
+        '/image/Chitwan2.jpg',
+        '/image/Chitwan3.jpg',
         
       ],
       description: 'Peaceful natural surroundings'
@@ -58,9 +58,9 @@ const Card = () => {
       title: 'Mountain Lodge in Annapurna',
       price: 'Rs 2000 per night',
       images: [
-        'src/assets/image/a1.jpg',
-        'src/assets/image/a2.jpg',
-        'src/assets/image/a3.jpg',
+        '/image/a1.jpg',
+        '/image/a2.jpg',
+        '/image/a3.jpg',
       ],
       description: 'Breathtaking Himalayan views'
     },
@@ -69,9 +69,9 @@ const Card = () => {
       title: 'Homestay in Ghandruk',
       price: 'Rs 1200 per night',
       images: [
-        'src/assets/image/g1.jpg',
-        'src/assets/image/g2.jpg',
-        'src/assets/image/g3.jpg',
+        '/image/g1.jpg',
+        '/image/g2.jpg',
+        '/image/g3.jpg',
       
       ],
       description: 'Cultural Village'
@@ -81,9 +81,9 @@ const Card = () => {
       title: 'Heritage House in Bhaktapur',
       price: 'Rs 1200 per night',
       images: [
-       'src/assets/image/b1.jpg',
-        'src/assets/image/b2.jpg',
-        'src/assets/image/b3.jpg',
+       '/image/b1.jpg',
+        '/image/b2.jpg',
+        '/image/b3.jpg',
       
       ],
       description: 'Historic district location'
@@ -93,9 +93,9 @@ const Card = () => {
       title: 'Eco Retreat in Langtang',
       price: 'Rs 2000 per night',
       images: [
-        'src/assets/image/l1.jpg',
-        'src/assets/image/l2.jpg',
-        'src/assets/image/l3.jpg',
+        '/image/l1.jpg',
+        '/image/l2.jpg',
+        '/image/l3.jpg',
       
       ],
       description: 'Sustainable living in nature'
@@ -105,9 +105,9 @@ const Card = () => {
       title: 'Modern Apartment in Patan',
       price: 'Rs 2000 per night',
       images: [
-        'src/assets/image/p1.jpg',
-        'src/assets/image/p2.jpg',
-        'src/assets/image/p3.jpg',
+        '/image/p1.jpg',
+        '/image/p2.jpg',
+        '/image/p3.jpg',
       ],
       description: 'Contemporary living with cultural charm'
     },
@@ -116,9 +116,9 @@ const Card = () => {
       title: 'Teahouse Lodge in Everest Region',
       price: 'Rs 1500 per night',
       images: [
-       'src/assets/image/m1.jpg',
-        'src/assets/image/m2.jpg',
-        'src/assets/image/m3.jpg',
+       '/image/m1.jpg',
+        '/image/m2.jpg',
+        '/image/m3.jpg',
       ],
       description: 'Authentic trekking experience'
     },
@@ -127,9 +127,9 @@ const Card = () => {
       title: 'Hotel Sarathi in Dhulikhel',
       price: 'Rs 3000 per night',
       images: [
-        'src/assets/image/d1.jpg',
-        'src/assets/image/d2.jpg',
-        'src/assets/image/d3.jpg',
+        '/image/d1.jpg',
+        '/image/d2.jpg',
+        '/image/d3.jpg',
       ],
       description: 'A five star hotel with seven star facility'
     },
@@ -138,9 +138,9 @@ const Card = () => {
       title: 'Jungle Villa in Bardia',
       price: 'Rs 2000 per night',
       images: [
-       'src/assets/image/j1.jpg',
-        'src/assets/image/j2.jpg',
-        'src/assets/image/j3.jpg',
+       '/image/j1.jpg',
+        '/image/j2.jpg',
+        '/image/j3.jpg',
       ],
       description: 'Wildlife and nature experience'
     }

@@ -10,9 +10,9 @@ const ForestHouse = () => {
             title: 'Jungle Villa in Bardia',
             price: 'Rs 2000 per night',
             images: [
-             'src/assets/image/j1.jpg',
-              'src/assets/image/j2.jpg',
-              'src/assets/image/j3.jpg',
+             '/image/j1.jpg',
+              '/image/j2.jpg',
+              '/image/j3.jpg',
             ],
             description: 'Wildlife and nature experience'
           }
